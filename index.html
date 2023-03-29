@@ -3,30 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width= , initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./Assets/style.css">
-   
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Abhishek Desai</h1>
+    <nav class="navbar">
         <ul>
-            <li>
-                Contact
-            </li>
-            <li>
-                About Me
-            </li>
-            <li>
-                Work
-            </li>
-            <li>
-                Resume
-            </li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact me</a></li>
         </ul>
+    </nav>
 
-    </header>
-    
+    <section id="home">
+        <div class="main">
+            <img src="./Photos/Logo.jpeg" alt="Logo">
+            <h1 class="heading">
+                VISION IS EVERYTHING
+            </h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="header">ABOUT ME</h1>
+        <div class="pic">
+            <img src="./Photos/WhatsApp Image 2023-03-29 at 00.19.07.jpg" alt="My image">
+            <div id="intro">
+                <h2>Abhishek Desai</h2>
+                <p>I am currently working in CIBC as an Signing Authority - Team lead. I want to be software developer, photoghrapher and an ardent learner who is always creating and learning awesome stuff. I have created ecommerce website and implemented MIS software to make operations more efficient. Increased new sales and brand exposure with print, direct mail, website, and social media marketing. 3 years experience in web development. 5 years experience in marketing, business development, customer service, and sales.
+                    Self-motivated and passionate about learning.
+                    Special Skills: Vietnamese, graphic design, video-editing, blogging, marketing, Software: Web Storm, Sublime Text Editor, Quickbooks, Microsoft Word, Microsoft Powerpoint, Microsoft Excel, Microsoft Publisher, Adobe Photoshop, Adobe Indesign, Adobe Illustrator. Let's start scorlling and learn more about me</p>
+                </div>
+        </div>
+    </section>
+
+    <section id="work">
+      <h1 class="headings">WORK</h1> 
+      <p class="First"><a href="https://abhidesai508.github.io/SEO-WEBSITE-MODULE-1-/"><img src="./Photos/coding.avif" width="900px" height="500px" alt="Password Generator"></p></a>
+      <div class="gallery">
+        <p><a href="https://abhidesai508.github.io/prework-study-guide/"><img src="./Photos/coding1.avif" alt="Pre work"></p></a>
+        <p><a href="https://abhidesai508.github.io/My-Password-Generator/"><img src="./Photos/Laptop.avif" alt="Challenge 1"></p></a>
+        <p><a href="http://127.0.0.1:5500/Index.html"><img src="./Photos/website.avif" alt="Game building"></p></a>
+      </div> 
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT ME</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+    <footer> ©2023 Abhishek Desai</footer>
 </body>
 </html>
