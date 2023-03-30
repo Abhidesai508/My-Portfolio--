@@ -16,7 +16,6 @@ html{
     justify-content: center;
     align-items: center;
     background-color: black;
-    position: sticky;
     top: 0;
 }
 
@@ -30,6 +29,10 @@ html{
     font-family: century;
     font-size:1.1rem;
     font-weight: bold;
+    @media (max-width:821px) {
+        display:block;
+        font-size:25px;
+    }
 }
 .navbar ul li a{
     text-decoration: none;
@@ -133,7 +136,7 @@ html{
 #work{
     display: flex;
     flex-direction: column;
-    color:aliceblue;
+    color:aqua;
     background-color: black;
     align-items: center;
     padding: 20px;
@@ -145,9 +148,22 @@ html{
     padding: 30px;
     font-size: 60px;
     text-decoration: underline;
-
+    position: relative;
+}
+.headings img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.coding{
+    position: absolute;
+    bottom: 10%;
+    font-size: 30px;
+    color: aqua;
+    background-color: #111010;
 }
 .gallery{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -156,8 +172,38 @@ html{
 .First{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
+.Big-picture{
+    position: relative;
+}
+
+.coding1{
+    position: absolute;
+    left:34%;
+    bottom: 10%;
+    font-size: 30px;
+    color: aqua;
+    background-color: #111010;}
+
+ .Passgenerator{
+    position: absolute;
+    right: 83%;
+    bottom: 10%;
+    font-size: 30px;
+    color: aqua;
+    background-color: #111010;
+ }
+ .JS{
+    position: absolute;
+    left: 67%;
+    bottom: 10%;
+    font-size: 30px;
+    color: aqua;
+    background-color: #111010;
+ }
+ 
 .gallery img{
     width: 460px;
     height: 340px;
@@ -202,13 +248,9 @@ html{
 }
 #send:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px white;
-}
-
-@media screen and (max-width:992px){
-    .navbar {
-        background-color: khaki;
-    }
+    box-shadow: 0 0 10px purple;
+    background-color: black;
+    color: aliceblue;
 }
 
 footer{
@@ -217,4 +259,17 @@ footer{
     background-color: rgb(143, 128, 144);
     padding: 2%;
     font-size: 20px;
+}
+
+@media (max-width: 809px) {
+  #home {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
