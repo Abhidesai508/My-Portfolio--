@@ -163,12 +163,18 @@ html{
     background-color: #111010;
 }
 .gallery{
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
     box-sizing: border-box;
 }
+
+.project1, .project2, .project3, .project4{
+    position: relative;
+    text-align: center;
+}
+
 .First{
     display: flex;
     justify-content: center;
@@ -181,7 +187,7 @@ html{
 
 .coding1{
     position: absolute;
-    left:34%;
+    left: 3%;
     bottom: 10%;
     font-size: 30px;
     color: aqua;
@@ -189,15 +195,16 @@ html{
 
  .Passgenerator{
     position: absolute;
-    right: 83%;
+    left: 3%;
     bottom: 10%;
     font-size: 30px;
     color: aqua;
     background-color: #111010;
  }
+ 
  .JS{
     position: absolute;
-    left: 67%;
+    left: 3%;
     bottom: 10%;
     font-size: 30px;
     color: aqua;
@@ -206,7 +213,7 @@ html{
  
  .SBE{
     position: absolute;
-    left: 83%;
+    left: 3%;
     bottom: 10%;
     font-size: 30px;
     color: aqua;
