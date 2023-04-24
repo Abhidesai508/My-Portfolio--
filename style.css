@@ -204,6 +204,15 @@ html{
     background-color: #111010;
  }
  
+ .SBE{
+    position: absolute;
+    left: 83%;
+    bottom: 10%;
+    font-size: 30px;
+    color: aqua;
+    background-color: #111010;
+ }
+
 .gallery img{
     width: 460px;
     height: 340px;
